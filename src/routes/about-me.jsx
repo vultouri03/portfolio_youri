@@ -6,8 +6,8 @@ const Aboutme = () => {
         <>
             <div className="text-gray-800 text-base">
                 <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
-                    <img className="object-cover object-center rounded-full h-64 w-64 border-4 border-double"
-                        src="https://cdn.discordapp.com/attachments/916820208214212661/1230867295400759326/IMG_1299.png?ex=6634e17f&is=66226c7f&hm=5d4884f885e510cba0dfc0ef4760142a6ef7f51fefdb91c90db22f7d613a2e3e&"
+                    <img className="object-cover object-center rounded-full h-72 w-64 border-4 border-double"
+                        src="https://media.discordapp.net/attachments/916820208214212661/1231938230392455248/IMG_1013.jpg?ex=66284c22&is=6626faa2&hm=01ff4d6b56729cd48681468334f6536076ea9e8a0a4c5429798c3682de51da78&=&format=webp&width=446&height=662"
                         alt="" />
                 </div>
 
