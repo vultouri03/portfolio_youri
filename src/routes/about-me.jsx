@@ -7,7 +7,7 @@ const Aboutme = () => {
             <div className="text-gray-800 text-base">
                 <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
                     <img className="object-cover object-top rounded-full h-72 w-64 border-4 border-double"
-                        src="/src/assets/IMG_1013.jpg"
+                        src="src\assets\IMG_1013.jpg"
                         alt="" />
                 </div>
 
