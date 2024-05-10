@@ -6,8 +6,8 @@ const Aboutme = () => {
         <>
             <div className="text-gray-800 text-base">
                 <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
-                    <img className="object-cover object-center rounded-full h-72 w-64 border-4 border-double"
-                        src="https://media.discordapp.net/attachments/916820208214212661/1231938230392455248/IMG_1013.jpg?ex=66284c22&is=6626faa2&hm=01ff4d6b56729cd48681468334f6536076ea9e8a0a4c5429798c3682de51da78&=&format=webp&width=446&height=662"
+                    <img className="object-cover object-top rounded-full h-72 w-64 border-4 border-double"
+                        src="../src/assets/IMG_1013.jpg"
                         alt="" />
                 </div>
 
@@ -41,14 +41,16 @@ const Aboutme = () => {
                             <div className="font-bold text-xl mb-2 text-black">My Skills</div>
                             <p>I have learned many different skills during my study. From basic programing to design to thinking about the ethical questions regarding technology</p>
                             <p>My programing skills consist of the following languages:</p>
-                            <ul className="list-disc list-inside py-2 ">
-                                <li>javascript, from basic Dom to using advanced librarys to make games or use AI language models.</li>
-                                <li>REACTjs, to make beautifull frontends like this site.</li>
-                                <li>NODEjs, like express webservices.</li>
-                                <li>PHP, both base php and with laravel.</li>
-                                <li>Databases, like SQL or MongoDB.</li>
-                                <li>godot game engine.</li>
-                                <li>Can work using Object Oriented Programing.</li>
+                            <ul className="list-disc list-inside py-2 text-blue-700">
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/hyrulian-tour-guide-AI-chatbot">javascript, from basic Dom to using advanced librarys to make games or use AI language models.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/Auto_Anatomizer-prg8-2">Machine learning techniques in javascript</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/portfolio_youri">REACTjs, to make beautifull frontends like this site.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/prg-06-fullstack-eindopdracht">NODEjs, like express webservices.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/Xenoblade-build-app">PHP, both base php and with laravel.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/pinata-reservation-system">Databases, like SQL or MongoDB.</a></li>
+                                <li><a className="hover:text-purple-600 text-black" href="">godot game engine. No Repository's yet.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/prg04-eindopdracht">Can work using Object Oriented Programing.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/1010115/Vedute2">Develop in a team using Scrum and github branches</a></li>
                             </ul>
                             <p>I have also learned the basics of webdesign, down below are some links to a few design documents I have made. Note these are in Dutch because they were made for Dutch organisations</p>
                             <ul className="list-disc list-inside py-2 text-blue-700 ">
