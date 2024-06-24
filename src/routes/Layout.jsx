@@ -28,7 +28,7 @@ const Layout = () => {
                     <Link to="projects">
                     <button
                         className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                        projects
+                        Video demo's
                     </button>
                     </Link>
                 </div>

@@ -45,6 +45,7 @@ const Aboutme = () => {
                             <ul className="list-disc list-inside py-2 text-blue-700">
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/hyrulian-tour-guide-AI-chatbot">javascript, from basic Dom to using advanced librarys to make games or use AI language models.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/Auto_Anatomizer-prg8-2">Machine learning techniques in javascript</a></li>
+                                <li><a className="hover:text-purple-600 text-black" href="">Basic knowledge of vue, don't have any good projects in this since I switched to React</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/portfolio_youri">REACTjs, to make beautifull frontends like this site.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/prg-06-fullstack-eindopdracht">NODEjs, like express webservices.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/Xenoblade-build-app">PHP, both base php and with laravel.</a></li>
