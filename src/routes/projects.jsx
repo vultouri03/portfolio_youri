@@ -1,6 +1,3 @@
-import { Outlet, Link } from "react-router-dom";
-import * as React from "react";
-import { useState } from "react";
 import { Project } from "../components/Project";
 
 const array = [
@@ -20,6 +17,18 @@ const array = [
                     "video": "https://www.youtube.com/embed/Hpe1z2vm4Y4?si=QCgJ6QGJzyjz3l15",
                     "description": "This is the Vedute maker, an interactive art maker made for Stichting Vedute. I worked on this project with 4 other students, whose names are credited below. My role during this project was that of the Designer, meaning that I was responsible for the wireframes, sitemaps and styleguides and such. During the development I worked on both the layer switch functionality and the image imports. I also made sure that my designs were properly translated into the webapp.  ",
                     "link": "https://github.com/1010115/Vedute2"
+          },
+          {
+            "name": "Food for Thought Serious Game",
+            "video": "https://www.youtube.com/embed/RIhrfw11mII?si=Phec03Midj7rAm9d",
+            "description": "This is a serious game made in Godot, with the purpose of helping people waste less food by teaching them about food storing and expiration dates. I worked on this project with 3 other students so the voice over in the video is not mine. I was responsible for the art, overal gameflow and working out testing plans and user interviews. This can still be downloaded via https://cesianahz.itch.io/foodforthought",
+            "link": "https://github.com/vultouri03/TLE-2-Responsible-Consumption-Game/tree/Merger"
+          },
+          {
+            "name": "Allergy Clarity App",
+            "video": "https://www.youtube.com/embed/Bywthdvu7OM?si=_asb6ktRj1OMPqfo",
+            "description": "This is an app made in Godot for people with allergies to help them find safe places to eat out. This was a solo project. I build a custom map system using data from OpenStreetMap to draw roads and restaurants from real world coordinates. I also added a backend using Express and made naviagtion work through calling JS code in godot. I am very proud of this project",
+            "link": "https://github.com/vultouri03/Allergy_Clarity"
           }
 ]
 
