@@ -47,7 +47,7 @@ const Aboutme = () => {
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/prg-06-fullstack-eindopdracht">NODEjs, like express webservices.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/Xenoblade-build-app">PHP, both base php and with laravel.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/pinata-reservation-system">Databases, like SQL or MongoDB.</a></li>
-                                <li><a className="hover:text-purple-600 text-black" href="https://github.com/vultouri03/ple-godot-map-experiment">Godot game engine projects.</a></li>
+                                <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/ple-godot-map-experiment">Godot game engine projects.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/vultouri03/prg04-eindopdracht">Can work using Object Oriented Programing.</a></li>
                                 <li><a className="hover:text-purple-600" target="_blank" href="https://github.com/1010115/Vedute2">Develop in a team using Scrum and github branches</a></li>
                             </ul>
