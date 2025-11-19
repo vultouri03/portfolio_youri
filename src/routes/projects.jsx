@@ -29,6 +29,13 @@ const array = [
             "video": "https://www.youtube.com/embed/Bywthdvu7OM?si=_asb6ktRj1OMPqfo",
             "description": "This is an app made in Godot for people with allergies to help them find safe places to eat out. This was a solo project. I build a custom map system using data from OpenStreetMap to draw roads and restaurants from real world coordinates. I also added a backend using Express and made naviagtion work through calling JS code in godot. I am very proud of this project",
             "link": "https://github.com/vultouri03/Allergy_Clarity"
+          },
+          {
+            "name": "Spiritbound Cannonball",
+            "video": "https://www.youtube.com/embed/4CeVUjXrSYc?si=YyQbYIjW2sKRypEI",
+            "description": "This was a 2d game project I worked on in a team of 5 people. I was responsible for the in game character animations, shaders, vfxs and getting those working in the unity engine. Slightly different from my usual code/design role but a great showcase of my versatility.",
+          "link": "https://play.google.com/store/apps/details?id=com.explodingcatstudio.spiritboundcatnonball&pli=1",
+          "label": "Google Play Store"
           }
 ]
 
@@ -36,12 +43,12 @@ const Projects = () => {
 
 
           const projectList = array.map((items, i) => (
-                    <Project key={i} name={items.name} video={items.video} description={items.description} link={items.link}></Project>
+                    <Project key={i} name={items.name} video={items.video} description={items.description} link={items.link} linkLabel={items.label}></Project>
           ))
 
           return (
                     <>
-                              <div className="flex flex-wrap mb-2 2xl:ml-[8em] md:ml-[5em]">
+                              <div className="flex flex-wrap mb-2 object-center justify-center">
                                         {projectList}
                               </div>
 

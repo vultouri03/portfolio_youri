@@ -11,7 +11,7 @@ const Layout = () => {
     return (
         <>
             <nav
-                className="flex justify-between flex-wrap p-3 bg-red-600 sticky top-0 w-full z-10 mt-0 shadow-md ">
+                className="flex justify-between items-center flex-wrap p-3 bg-red-600 sticky top-0 w-full z-10 mt-0 shadow-md ">
                 <div className="flex items-center flex-shrink-0 text-white mr-6 w-full p-3 bg-blue-800 mb-5 rounded justify-center">
                     <span className="font-semibold text-xl tracking-tight">Youri's portfolio</span>
                 </div>
