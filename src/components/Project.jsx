@@ -13,10 +13,10 @@ export function Project(props) {
                 </div>
                 <div className="px-6 py-4 pb-1/3">
                     <div className="font-bold text-xl mb-2">{props.name}</div>
-                    <p className="text-gray-700 text-base h-72">
+                    <p className="text-gray-700 text-base h-72 overflow-auto">
                         {props.description}
                     </p>
-                    <a className="text-gray-700 text-base" href={props.link}>
+                    <a className="text-blue-700 text-base" target="_blank" rel="noopener noreferrer" href={props.link}>
                         {props.linkLabel}
                     </a>
                 </div>

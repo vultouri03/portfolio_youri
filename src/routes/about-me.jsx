@@ -18,14 +18,16 @@ const Aboutme = () => {
                         <div className="px-6 py-4 pb-1/3">
                             <div className="font-bold text-xl mb-2 text-black">Introduction</div>
                             <p className=" text-base">
-                                My name is Youri de Gier, I'm a Dutch student at Hogeschool Rotterdam, majoring in Creative Media and Game Technologies.
+                                My name is Youri de Gier, I'm a Dutch developer with a passion for frontend and game development, as well as design.
                             </p>
                             <p className=" text-base">
-                                I'm 20 years old and have completed the VWO, the highest level of Highschool in the Netherlands, in the following subjects: Mathematics A, Dutch, English, Science, Physics, Biology, Art and German.
+                                I'm 23 years old and have completed the VWO, the highest level of Highschool in the Netherlands, in the following subjects: Mathematics A, Dutch, English, Science, Physics, Biology, Art and German.
                             </p>
-
+                            <p className="text-base">
+                                I've also graduated from the HBO program known as creative media and game technologies at the Rotterdam University of Applied Sciences. During this program I learned many different skills, from programming and design to thinking about the ethical questions regarding technology.
+                            </p>
                             <p className="text-base pb-16">
-                                I've chosen my current Study because of my interest in both programing and design. Which is something this study perfectly combines.
+                                During my study I have worked on many different projects, both solo and in teams. And in many different contexts, like game development, web development and app development.  You can find a list of my projects on the projects page.
                             </p>
                             <div className="font-bold text-xl mb-2 text-black">My hobbies</div>
                             <p>
